@@ -1,0 +1,11 @@
+Q1: https://github.com/jamessch16
+Q2: 2.27.1
+Q3: 2.31.0
+Q4: They are different versions. The virtual environment contains a newer version
+Q5: It returns a 301 Moved Permanently code. To get a 200 code, we must visit http://www.google.com
+Q6: http://google.com/teapot returns a 301 code with curl -i. 
+    With curl -iL, it requests the redirect as well and the code for that request is 418 I'm a teapot.
+    This is the status code returned by http://www.google.com/teapot
+Q7: Fields indicating the request type show that the request using curl -i -X post -d "X=Y" was a POST request.
+    Simply using curl -i sends a GET request. -X POST is useful if we want to send a POST request.
+Q8: https://github.com/jamessch16/CMPUT_404_Lab_1/blob/master/lab1_script.py
